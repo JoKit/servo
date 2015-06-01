@@ -3,7 +3,7 @@ name = "servo"
 version = "0.0.1"
 dependencies = [
  "android_glue 0.0.2",
- "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bitflags 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "compositing 0.0.1",
  "devtools 0.0.1",
  "devtools_traits 0.0.1",
@@ -58,6 +58,11 @@ dependencies = [
 [[package]]
 name = "bitflags"
 version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "bitflags"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
@@ -205,7 +210,7 @@ name = "devtools"
 version = "0.0.1"
 dependencies = [
  "devtools_traits 0.0.1",
- "hyper 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "hyper 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "msg 0.0.1",
  "rustc-serialize 0.3.14 (registry+https://github.com/rust-lang/crates.io-index)",
  "time 0.1.25 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -217,8 +222,8 @@ dependencies = [
 name = "devtools_traits"
 version = "0.0.1"
 dependencies = [
- "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "hyper 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bitflags 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "hyper 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "msg 0.0.1",
  "rustc-serialize 0.3.14 (registry+https://github.com/rust-lang/crates.io-index)",
  "time 0.1.25 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -370,7 +375,7 @@ name = "gfx"
 version = "0.0.1"
 dependencies = [
  "azure 0.1.0 (git+https://github.com/servo/rust-azure)",
- "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bitflags 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "canvas_traits 0.0.1",
  "core_foundation 0.1.0 (git+https://github.com/servo/rust-core-foundation)",
  "core_graphics 0.1.0 (git+https://github.com/servo/rust-core-graphics)",
@@ -469,7 +474,7 @@ dependencies = [
 name = "glutin_app"
 version = "0.0.1"
 dependencies = [
- "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bitflags 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "cgl 0.0.1 (git+https://github.com/servo/rust-cgl)",
  "compositing 0.0.1",
  "egl 0.1.0 (git+https://github.com/servo/rust-egl)",
@@ -661,7 +666,7 @@ name = "layout"
 version = "0.0.1"
 dependencies = [
  "azure 0.1.0 (git+https://github.com/servo/rust-azure)",
- "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bitflags 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "canvas 0.0.1",
  "canvas_traits 0.0.1",
  "clock_ticks 0.0.6 (git+https://github.com/tomaka/clock_ticks)",
@@ -778,10 +783,10 @@ name = "msg"
 version = "0.0.1"
 dependencies = [
  "azure 0.1.0 (git+https://github.com/servo/rust-azure)",
- "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bitflags 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "core_foundation 0.1.0 (git+https://github.com/servo/rust-core-foundation)",
  "geom 0.1.0 (git+https://github.com/servo/rust-geom)",
- "hyper 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "hyper 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "io_surface 0.1.0 (git+https://github.com/servo/rust-io-surface)",
  "layers 0.1.0 (git+https://github.com/servo/rust-layers)",
  "png 0.1.0 (git+https://github.com/servo/rust-png)",
@@ -799,7 +804,7 @@ dependencies = [
  "devtools_traits 0.0.1",
  "flate2 0.2.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "geom 0.1.0 (git+https://github.com/servo/rust-geom)",
- "hyper 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "hyper 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "net_traits 0.0.1",
  "openssl 0.6.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "png 0.1.0 (git+https://github.com/servo/rust-png)",
@@ -829,7 +834,7 @@ name = "net_traits"
 version = "0.0.1"
 dependencies = [
  "geom 0.1.0 (git+https://github.com/servo/rust-geom)",
- "hyper 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "hyper 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "msg 0.0.1",
  "png 0.1.0 (git+https://github.com/servo/rust-png)",
  "stb_image 0.1.0 (git+https://github.com/servo/rust-stb-image)",
@@ -1040,7 +1045,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "script"
 version = "0.0.1"
 dependencies = [
- "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bitflags 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "canvas 0.0.1",
  "canvas_traits 0.0.1",
  "cssparser 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1049,7 +1054,7 @@ dependencies = [
  "geom 0.1.0 (git+https://github.com/servo/rust-geom)",
  "gfx 0.0.1",
  "html5ever 0.0.0 (git+https://github.com/servo/html5ever)",
- "hyper 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "hyper 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "js 0.1.0 (git+https://github.com/servo/rust-mozjs)",
  "libc 0.1.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "msg 0.0.1",
@@ -1172,7 +1177,7 @@ source = "git+https://github.com/servo/string-cache#c5912f925e9c1db7dbe4a7980fbc
 name = "style"
 version = "0.0.1"
 dependencies = [
- "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bitflags 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "cssparser 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "encoding 0.2.32 (registry+https://github.com/rust-lang/crates.io-index)",
  "geom 0.1.0 (git+https://github.com/servo/rust-geom)",
@@ -1272,7 +1277,7 @@ name = "util"
 version = "0.0.1"
 dependencies = [
  "azure 0.1.0 (git+https://github.com/servo/rust-azure)",
- "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bitflags 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "cssparser 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "fnv 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "geom 0.1.0 (git+https://github.com/servo/rust-geom)",
@@ -1347,7 +1352,7 @@ name = "websocket"
 version = "0.11.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
- "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bitflags 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "byteorder 0.3.10 (registry+https://github.com/rust-lang/crates.io-index)",
  "hyper 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "openssl 0.6.2 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1393,6 +1398,6 @@ name = "xml-rs"
 version = "0.1.25"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
- "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "bitflags 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
